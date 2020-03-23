@@ -33,14 +33,23 @@ input::-webkit-inner-spin-button {
 }
 .payment,
 .hours,
-.counter-total {
+.counter-total,
+.last-week,
+.two-weeks {
     text-align: center;
     margin-top: 20px;
-    
+    margin-left: 50px;
+    margin-right: 50px;
 }
+.last-week{
+    margin-left: 0;
+}
+
 .payment span,
 .hours span,
-.counter-total span {
+.counter-total span,
+.last-week span,
+.two-weeks span {
     font-size: 30px;
     color: red;
 }
@@ -50,4 +59,12 @@ input::-webkit-inner-spin-button {
     flex-wrap: wrap;
     justify-content: space-around;
     
+}
+.sum-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.save{
+    margin-top: 50px;
 }
