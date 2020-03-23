@@ -1,5 +1,5 @@
 .counter{
-    width: 50%;
+    
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -38,8 +38,7 @@ input::-webkit-inner-spin-button {
 .two-weeks {
     text-align: center;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    
 }
 .last-week{
     margin-left: 0;
@@ -64,6 +63,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .save{
     margin-top: 50px;
