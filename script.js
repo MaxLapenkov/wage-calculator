@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', function() {
         lastSum.innerHTML = totalSum.innerHTML;
         for(let i = 0; i < days.length; i++) {
           
-          days[i].value = 0;
+          days[i].value = '';
           
           
         }
